@@ -79,11 +79,6 @@ img {
     background-color: #b8c8d6 !important;
 }
 
-#tenho-interesse .cognito .c-forms-form .c-forms-form-title h2,
-#tenho-interesse .cognito label[for], .cognito input[type=radio], .cognito input[type=checkbox] {
-    color: #385874;
-}
-
 ol {
     margin-left: 30px;
 }
