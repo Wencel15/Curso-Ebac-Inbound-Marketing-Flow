@@ -29,31 +29,31 @@ header {
     float: left;
     padding: 20px;
     width: 100%;
-    border-bottom: 1px solid #254159;
+    border-bottom: 1px solid #17213a;
 }
 
 h1 {
     font-size: 2.4rem;
-    color: #254159;
+    color: #17213a;
     margin-bottom: 20px;
 }
 
 h2 {
     font-size: 2rem;
-    color: #254159;
+    color: #17213a;
     margin-bottom: 20px;
 }
 
 h3 {
     font-size: 1.8rem;
-    color: #254159;
+    color: #17213a;
     margin-bottom: 20px;
     padding-top: 10px;
 }
 
 h4 {
     font-size: 1.6rem;
-    color: #385874;
+    color: #17213a;
     margin-bottom: 10px;
     padding-top: 10px;
 }
@@ -70,13 +70,13 @@ img {
 }
 
 #tenho-interesse {
-    background-color: #b8c8d6;
+    background-color: #F5A01E;
     width: 100%;
 }
 
 #tenho-interesse form,
 .cog-form__container, :root:root:root:root:root .cog-form__container  {
-    background-color: #b8c8d6 !important;
+    background-color: #F5A01E !important;
 }
 
 ol {
@@ -130,7 +130,7 @@ section article {
 
 footer {
     color: #ffffff;
-    background-color: #254159;  
+    background-color: #17213A;  
     display: block;
     float: left;
     padding: 20px;
@@ -139,11 +139,16 @@ footer {
 
 footer p {
     color: #ffffff;
-    font-size: 1.4rem;
+    font-size: 1.0rem;
+    padding: 5px
 }
 
 footer small {
     font-size: 80%;
+    display: block;
+}
+footer img {
+    margin: auto;
     display: block;
 }
 
