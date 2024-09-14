@@ -1,84 +1,160 @@
-
+/* Base Styles */
 html {
-    font-size: 62.5%;
+    font-size: 62.5%; /* Base font size: 10px (1rem = 10px) */
 }
 
 body {
-    background-color: #f5f5f5; 
+    background-color: #f5f5f5;
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
+/* Main Container */
 .main-container {
     display: block;
     width: 100vw;
     margin: 0 auto;
 }
 
+/* General Container */
 .container {
     display: block;
-    float: left;
     padding: 20px;
-    max-width: 100%;
-    margin: 0 auto;
     max-width: 1198px;
+    margin: 0 auto;
 }
 
+/* Header */
 header {
     background: #fff;
-    display: block;
-    float: left;
     padding: 20px;
     width: 100%;
     border-bottom: 1px solid #17213a;
 }
 
-h1 {
-    font-size: 2.4rem;
+/* Header Flex Container */
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    max-width: 150px; /* Ajuste conforme necessário */
+}
+
+nav {
+    flex: unset;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #254159;
+}
+
+nav a:hover {
+    color: #385874;
+}
+
+/* Headings */
+h1, h2, h3, h4 {
     color: #17213a;
     margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.4rem;
 }
 
 h2 {
     font-size: 2rem;
-    color: #17213a;
-    margin-bottom: 20px;
 }
 
 h3 {
     font-size: 1.8rem;
-    color: #17213a;
-    margin-bottom: 20px;
     padding-top: 10px;
 }
 
 h4 {
     font-size: 1.6rem;
-    color: #17213a;
-    margin-bottom: 10px;
     padding-top: 10px;
 }
 
+/* Paragraphs */
 p {
     margin-bottom: 10px;
     line-height: 1.4;
     color: #333;
 }
 
+/* Images */
 img {
     max-width: 100%;
     height: auto;
 }
 
+/* Section Styling */
+section {
+    background-color: #fff;
+    padding: 20px;
+    font-size: 1.5rem;
+    width: 100%;
+    display: flex;
+}
+
+section article {
+    width: 100%;
+}
+
+/* Footer */
+footer {
+    background-color: #17213a;
+    padding: 20px;
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1.0rem;
+    margin: 0;
+}
+
+footer small {
+    font-size: 80%;
+    display: block;
+}
+
+footer img {
+    margin: auto;
+    display: block;
+}
+
+/* Special Sections */
 #tenho-interesse {
     background-color: #F5A01E;
     width: 100%;
 }
 
 #tenho-interesse form,
-.cog-form__container, :root:root:root:root:root .cog-form__container  {
+.cog-form__container {
     background-color: #F5A01E !important;
 }
 
+/* Lists */
 ol {
     margin-left: 30px;
 }
@@ -88,83 +164,37 @@ ol li {
     color: #454545;
 }
 
-section {
-    background-color: #fff;
-    display: block;
-    float: left;
-    font-size: 1.5rem;
-    padding: 20px;
-    width: 100%;
-}
-
-section nav {
-    display: block;
-    float: left;
-    width: 30%;
-}
-
-nav li {
-    background-color: #efefef;
-    margin: 1px 20px 1px 0;
-    padding: 10px;
-}
-
-nav li:hover {
-    background-color: #dfdfdf;
-}
-
-nav a {
-    text-decoration: none;
-    color: #254159;
-}
-
-nav a:hover {
-    color: #385874;
-}
-
-section article {
-    display: block;
-    float: left;
-    width: 70%;
-}
-
-footer {
-    color: #ffffff;
-    background-color: #17213A;  
-    display: block;
-    float: left;
-    padding: 20px;
-    width: 100%;
-}
-
-footer p {
-    color: #ffffff;
-    font-size: 1.0rem;
-    padding: 5px
-}
-
-footer small {
-    font-size: 80%;
-    display: block;
-}
-footer img {
-    margin: auto;
-    display: block;
-}
-
-.cognito {
-    height: 400px !important;
-    overflow: hidden !important;
-}
-
+/* Responsive Design */
 @media (max-width: 425px) {
-    section nav,
+    .header-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li {
+        margin: 10px 0;
+    }
+
+    section {
+        flex-direction: column;
+    }
+
     section article {
         width: 100%;
-    }  
+    }
 
     .container {
         padding-left: 1%;
         padding-right: 1%;
     }
+}
+
+/* Special Styles */
+.cognito {
+    height: 400px !important;
+    overflow: hidden !important;
 }

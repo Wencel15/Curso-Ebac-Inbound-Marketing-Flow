@@ -1,37 +1,40 @@
-# Curso-Ebac-Inbound-Marketing-Flow
+# Luciano Wencel - Website
 
-# Inbound Marketing
+Este repositório contém o primeiro código-fonte do site pessoal, onde apliquei conhecimentos iniciais em HTML e CSS, o repositório serve de apoio como consulta para projetos futuros, abaixo descrevo as funcionalidades implementadas:
 
-## Objetivos
-- Construir um experiência completa para atrair leads para um negócio
-- Projeto digno de portfólio
+## Estrutura do Site
 
-## Requisitos
-- Codificação HTML e CSS
-- Princípios de design
-- HTML semântico
-- Design responsivo
-- Análise Heurística 
-- Visual Studio Code
-- Git 
+O site é composto por duas seções principais: 
 
-## Metodologia
-- Explorar conceitos e técnicas
-- Evolução contínua: dividir o projeto em pequenas partes, testes, ciclos incrementais, revisão...
-- AIDA
+1. **Página Inicial (Home):** 
+   - **Cabeçalho:** Demonstra a forma de incluir um logo e uma barra de navegação ao cabeçalho.
+   - **Artigo Principal:** Apresenta como formatar titulos e textos.
+   - **Imagem:** Forma de carregar imagens no artigo.
+   - **Conteúdo:** Estruturado com diferentes cabeçalhos (h2, h3, h4) e parágrafos.
 
-- \\\\      Atenção      ////
--   \\\    Interesse    ///
--     \\     Desejo    //
--       \     Ação    /           call-to-action 4% - 20%
+2. **Seção "Tenho Interesse":**
+   
+   - Um formulário integrado através do Cognito Forms para coletar informações de contato dos interessados.
+   
+3. **Rodapé:**
 
-            LEAD (e-mail)
+   - Demonstra como inserir uma imagem no rodapé.
 
-## Briefing
-- Criar uma campanha de inbound marketing para divulgar seus serviços de criação de sites, landing pages e e-mail marketing
-- Gerar leads qualificados, com real interesse nos serviços oferecidos
-- Criar conteúdo para post (blog), e-mail marketing, landing page (call-to-action: e-mail*)
-- Criar formulários para captação de e-mails
-- Post para redes sociais: texto + foto + url curta
-- Incluir hospedagem (servidor web) 
-- Git - histórico de evolução (commits detalhados)
+## Estrutura de Arquivos
+
+- **HTML:**
+  - `index.html`: Contém toda a estrutura das páginas, incluindo cabeçalho, menu de navegação, conteúdo principal e rodapé.
+
+- **CSS:**
+  - `reset.css`: Reinicia os estilos padrão dos navegadores para garantir uma aparência consistente.
+  - `styles.css`: Contém os estilos personalizados do site, incluindo layout, cores, tipografia e responsividade.
+
+## Tecnologias Utilizadas
+
+- **HTML5**: Para a estruturação do conteúdo.
+- **CSS3**: Para estilização e layout das páginas.
+- **Google Fonts**: Para importação da fonte "Open Sans".
+- **Cognito Forms**: Para a inclusão de um formulário de contato.
+
+
+
